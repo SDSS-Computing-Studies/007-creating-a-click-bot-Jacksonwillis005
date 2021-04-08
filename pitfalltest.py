@@ -2,7 +2,7 @@
 import pyautogui
 import time
 
-time.sleep(5)
+time.sleep(2)
 pyautogui.keyDown('f1')
 pyautogui.keyUp('f1')
 pyautogui.keyDown('f12')
@@ -45,3 +45,13 @@ pyautogui.keyDown('down')
 time.sleep(1.1)
 pyautogui.keyUp('down')
 pyautogui.keyDown('left')
+time.sleep(4)
+pyautogui.keyUp('left')
+pyautogui.keyDown('right')
+time.sleep(4.2)
+pyautogui.keyUp('right')
+pyautogui.keyDown('Down')
+time.sleep(20)
+pyautogui.keyUp('down')
+time.sleep(2)
+pyautogui.keyDown('down')
